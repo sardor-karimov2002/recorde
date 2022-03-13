@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .mask{
+        position: relative;
+        width: 200px;
+        height: 20px;
+        /* border: 1px solid black; */
+    }
+    .maskDiv{
+        width: 100%;
+        height: 100%;
+        padding-left: 15px;
+        border: 1px solid black;
+    }
+    .mask-input{
+        position: absolute;
+        top: 0;
+        margin-left: 10px;
+        opacity: 0;
+        width: 100%;
+        height: 100%;
+        border: 0;
+        padding: 10px;
+        border: 1px solid red;
+        font-size: 15px;
+    }
+</style>
+<body>
+<div>
+    <!-- <div id="back">Back</div>
+    <ul id="ulElement">
+
+    </ul> -->
+<!-- ///// -->
+    <!-- <div class="fokus">
+        <div class="mask">
+            <input class="mask-input" type="text" id="mask-input" >
+            <div type="text" class="maskDiv"></div>
+        </div>
+        <script>
+                    var textInput=document.getElementById('mask-input');
+                    var maskDiv=document.querySelector('.maskDiv');
+                    textInput.addEventListener('focus', ()=>{
+                        let text=" "
+                        maskDiv.textContent=text.padStart(20,"_")
+                    })
+                    textInput.addEventListener('keyup', ()=>{
+                        maskDiv.textContent=textInput.value.padEnd(20,"_")
+                    })
+        </script>
+    </div> -->
+<!-- /// -->
+
+<div style="width: 400px; margin:0 auto;" class="row">
+    <label for=""><h2>Bosing va  gapiring</h2></label>
+    <button style="margin: 5px;" id="galasovay" title="Голосовой поиск"><img src="./img/galasovay.png" alt="">Bosing va gapiring</button>
+</div>
+<div style="width: 400px; margin: 0 auto;" class="rasmlar">
+    <img style="display: flex; width: 100% ; height:100%;" class="okey" src="./img/okey.png" alt="">
+    <img style="width: 10px; height: 10px;" class="gulshoda" src="./img/gulshodaxosh.png" alt="">
+    <img style="width: 10px; height: 10px;" class="iskandar" src="./img/iskandar.jpg" alt="">
+    <img style="width: 10px; height: 10px;" class="maftuna" src="./img/maftuna.jpg" alt="">
+    <img style="width: 10px; height: 10px;" class="tolib" src="./img/tolib.jpg" alt="">
+    <img style="width: 10px; height: 10px;" class="sherzod" src="./img/sherzod xo'shqboqo'v.jpg" alt="">
+    <img style="width: 10px; height: 10px;" class="dilarom" src="./img/dilarom.jpg" alt="">
+    <img style="width: 10px; height: 10px;" class="xurshida" src="./img/xurshida.jpg" alt="">
+    <img style="width: 10px; height: 10px;" class="sardor" src="./img/sardor.jpg" alt="">
+    <img style="width: 10px; height: 10px;" class="oxirgi" src="./img/oxirgi.png" alt="">
+</div>
+</div>
+</body>
+<script src="./js/amaliyot.js"></script>
+<script src="./js/main.js"></script>
+<script src="./js/3.12-.js"></script>
+</html>
